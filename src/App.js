@@ -1,10 +1,12 @@
 import React from 'react'
+import './App.css';
+import ImageFluctuation from './components/ImageFluctuation'
 
 function App() {
   return (
-    <div className="App">
-      Rosquinhas
-    </div>
+    <>
+      <ImageFluctuation/>
+    </>
   );
 }
 
